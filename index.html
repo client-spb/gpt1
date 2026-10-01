@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#17131d">
+  <title>Скуф Гена и Великий Пульт</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="viewport" aria-label="Мультфильм «Скуф Гена и Великий Пульт»">
+    <section id="movie" class="movie" aria-live="polite">
+      <div class="sky"></div>
+      <div class="sun"></div>
+      <div class="cloud cloud-a"></div>
+      <div class="cloud cloud-b"></div>
+
+      <div id="room" class="set room">
+        <div class="wall-picture"><span>Я<br>в 2007</span></div>
+        <div class="clock"><i></i></div>
+        <div class="window"><span></span></div>
+        <div class="sofa"></div>
+        <div class="table"><div id="remote" class="remote">●</div><div class="snacks">ЧИПСЫ</div></div>
+        <div class="tv"><div class="screen"><div class="tv-noise"></div><b>КАНАЛ<br>«ДИВАН»</b></div></div>
+      </div>
+
+      <div id="shop" class="set shop">
+        <div class="shop-sign">УНИВЕРСАМ<br><small>«У ТЁТИ ЗИНЫ»</small></div>
+        <div class="shelf"><span>ГРЕЧА</span><span>МАКАРОНЫ</span><span>АКЦИЯ!</span></div>
+        <div class="counter"></div>
+      </div>
+
+      <div id="space" class="set space">
+        <i class="star s1"></i><i class="star s2"></i><i class="star s3"></i><i class="star s4"></i>
+        <div class="planet"></div><div class="portal"></div>
+      </div>
+
+      <div id="hero" class="person gena">
+        <div class="hair"></div><div class="ear left"></div><div class="ear right"></div>
+        <div class="head"><div class="brow"></div><div class="eyes">•　•</div><div class="nose"></div><div class="moustache">︵</div></div>
+        <div class="body"><div class="shirt-mark">G</div></div>
+        <div class="arm arm-l"></div><div class="arm arm-r"></div>
+        <div class="legs"></div><div class="slippers">▰　▰</div>
+      </div>
+
+      <div id="zina" class="person zina">
+        <div class="bun"></div><div class="head"><div class="eyes">•　•</div><div class="glasses">∞</div><div class="mouth">⌣</div></div>
+        <div class="body"><span>ЗИНА</span></div><div class="arm arm-l"></div><div class="arm arm-r"></div>
+      </div>
+
+      <div id="cat" class="cat"><div class="cat-tail"></div><div class="cat-body"></div><div class="cat-head"><i></i><b>•ᴗ•</b></div></div>
+      <div id="drone" class="drone"><span></span><b>ПИВО<br>0.0</b></div>
+
+      <div id="titleCard" class="title-card">
+        <div class="eyebrow">диванная студия представляет</div>
+        <h1>СКУФ ГЕНА<br><em>и Великий Пульт</em></h1>
+        <p>мультфильм почти на 10 минут</p>
+      </div>
+
+      <div id="speech" class="speech"><span id="speaker"></span><p id="line"></p></div>
+      <div id="chapter" class="chapter"></div>
+      <div class="vignette"></div>
+
+      <div id="start" class="start-screen">
+        <div class="poster-remote">●<i></i><i></i><i></i></div>
+        <h2>СКУФ ГЕНА<br><span>и Великий Пульт</span></h2>
+        <p>Комедия · 9 минут · со звуком</p>
+        <button id="play" type="button" aria-label="Запустить мультфильм"><span>▶</span> Смотреть</button>
+        <small>Повернём картинку сами. Устройтесь горизонтально.</small>
+      </div>
+
+      <div id="end" class="end-screen hidden">
+        <h2>КОНЕЦ</h2><p>Берегите пульт. И кота.</p>
+        <button id="replay" type="button">↻ Ещё раз</button>
+      </div>
+
+      <button id="sound" class="sound hidden" type="button" aria-label="Выключить звук">🔊</button>
+      <div id="progress" class="progress"><i></i></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
